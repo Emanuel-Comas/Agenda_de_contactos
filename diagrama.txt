@@ -1,0 +1,65 @@
+
+
++----------------------------+
+|        Menu (Clase Menu)    |
+|----------------------------|
+| - Mostrar Menú              |
+| - Elegir Opción             |
+|----------------------------|
+            |              
+            v                  
++----------------------------+      No
+|    Elegir Opción (Menú)    |------>+-------------------+
+|----------------------------|      | Fin                |
+| 1. Agregar Contacto         |<-----+-------------------+
+| 2. Mostrar Contactos        |
+| 3. Buscar Contacto          |
+| 4. Eliminar Contacto        |
+| 5. Actualizar Contacto      |
++----------------------------+
+            |
+            v
++----------------------------+     +--------------------+
+|      Agregar Contacto       |<----| 1. Ingresar Datos   |
+|      (Clase Agenda)         |     +--------------------+
+|----------------------------|     | 2. Crear Objeto     |
+| - Crear Contacto           |<----| 3. Llamar Agenda    |
+| - Llamar a Agenda          |     |    -> Agregar       |
+|   -> Agregar Contacto      |---->|                    |
++----------------------------+     +--------------------+
+            |
+            v
++----------------------------+     +--------------------+
+|     Mostrar Contactos       |<----| 1. Mostrar Lista    |
+|     (Clase Agenda)         |     |    de Contactos     |
+|----------------------------|     +--------------------+
+| - Llamar a Agenda          | 
+|   -> Mostrar Contactos     |      
++----------------------------+
+            |
+            v
++----------------------------+     +-------------------+
+|      Buscar Contacto       |<----| 1. Ingresar Nombre |
+|     (Clase Agenda)         |     +-------------------+
+|----------------------------|     | 2. Llamar a Buscar |
+| - Llamar a Agenda          |<----|     en Agenda      |
+|   -> Buscar Contacto       |     | 3. Mostrar Resultado|
++----------------------------+     +-------------------+
+            |
+            v
++----------------------------+
+|      Eliminar Contacto     |
+|      (Clase Agenda)        |
+|----------------------------|
+| - Llamar a Agenda          |
+|   -> Eliminar Contacto     |
++----------------------------+
+            |
+            v
++----------------------------+
+|     Actualizar Contacto    |
+|     (Clase Agenda)         |
+|----------------------------|
+| - Llamar a Agenda          |
+|   -> Actualizar Contacto   |
++----------------------------+
